@@ -52,7 +52,7 @@ var CommentBox = React.createClass({
     this.setState({data: newComments});
     $.ajax({
      // url: this.props.url,
-	  url: 'test.cfm',
+	  url: 'cf_wrtPst.cfm',
       dataType: 'json',
       type: 'POST',
       data: comment,
@@ -66,12 +66,8 @@ var CommentBox = React.createClass({
   },
   getInitialState: function() {
     return {data: [
-  {author: "Pete Hunt", text: "This is one comment"},
-  {author: "Jordan Walke", text: "This is *another* comment"},
-  {author: "Sublimetext", text: "syncme"},
   {author: "test", text: "syncup"}  ,
-  {author: "sublimetext2", text: "syncup2"},
-  {author: "sublimetext2b", text: "syncup2b"}
+  {author: "sublimetext2", text: "syncup2"}
 ]};
   },
   componentDidMount: function() {

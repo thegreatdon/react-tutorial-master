@@ -8,40 +8,21 @@
 	"buffers":
 	[
 		{
-			"contents": "<cfparam name=\"author\" default=\"\">\n<cfparam name=\"text\" default=\"\">\n\n<cfif #len(author)# and #len(text)#>\n<cfoutput>\n<cfsavecontent variable=\"comments\">\nAuthor:#author#<br/>\nText:#text#\n</cfsavecontent>\n<cffile action=\"WRITE\" file=\"#expandPath('.')#\\filtst.html\" output=\"#comments#\" addnewline=\"Yes\">\n	</cfoutput>\n</cfif>\n\n\n\n<cfsavecontent variable=\"\"></cfsavecontent>\n",
-			"file": "public/test.cfm",
-			"file_size": 332,
-			"file_write_time": 130875979280000000,
+			"file": "/C/Users/Jose/AppData/Roaming/Sublime Text 2/Packages/User/cfcomment.sublime-snippet",
 			"settings":
 			{
-				"buffer_size": 369,
+				"buffer_size": 300,
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "public/upl.html",
+			"contents": "\nAuthor:ZCZC<br/>\nText:ZCZC \n\ncomm-html	",
+			"file": "public/filtst.html",
+			"file_size": 32,
+			"file_write_time": 130877018048614215,
 			"settings":
 			{
-				"buffer_size": 44,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "public/scripts/testdev.js",
-			"settings":
-			{
-				"buffer_size": 4139,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"contents": "<!DOCTYPE html>\n<html>\n  <head>\n    <title>Hello React</title>\n    <!-- Not present in the tutorial. Just for basic styling. -->\n    <link rel=\"stylesheet\" href=\"css/base.css\" />\n    <script src=\"https://cdnjs.cloudflare.com/ajax/libs/react/0.13.0/react.js\"></script>\n    <script src=\"https://cdnjs.cloudflare.com/ajax/libs/react/0.13.0/JSXTransformer.js\"></script>\n    <script src=\"https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js\"></script>\n    <script src=\"https://cdnjs.cloudflare.com/ajax/libs/marked/0.3.2/marked.min.js\"></script>\n  </head>\n  <body>\n    <div id=\"content\"></div>\n    <script type=\"text/jsx;harmony=true\" src=\"scripts/testdev.js\"></script>\n<cfsavecontent variable=\"\"></cfsavecontent>\n\n<cfdump var=\"\">\n  </body>\n</html>\n",
-			"file": "public/index.cfm",
-			"file_size": 712,
-			"file_write_time": 130876766873381358,
-			"settings":
-			{
-				"buffer_size": 757,
+				"buffer_size": 40,
 				"line_ending": "Windows"
 			}
 		}
@@ -131,18 +112,19 @@
 	],
 	"file_history":
 	[
+		"/C/ColdFusion11/cfusion/wwwroot/react-tutorial-master/public/index.cfm",
+		"/C/ColdFusion11/cfusion/wwwroot/react-tutorial-master/public/scripts/testdev.js",
+		"/C/ColdFusion11/cfusion/wwwroot/react-tutorial-master/public/test.cfm",
+		"/C/ColdFusion11/cfusion/wwwroot/react-tutorial-master/public/upl.html",
 		"/C/Users/Jose/AppData/Roaming/Sublime Text 3/Packages/User/cfsavecontent.snippet",
 		"/C/Users/Jose/AppData/Roaming/Sublime Text 3/Packages/User/cfdump.sublime-snippet",
 		"/C/Users/Jose/AppData/Roaming/Sublime Text 3/Packages/ColdFusion/ColdFusion.sublime-settings",
 		"/C/ColdFusion11/cfusion/wwwroot/react-tutorial-master/public/hello.html",
 		"/C/ColdFusion11/cfusion/wwwroot/react-tutorial-master/sftp-config.json",
-		"/C/ColdFusion11/cfusion/wwwroot/react-tutorial-master/public/upl.html",
-		"/C/ColdFusion11/cfusion/wwwroot/react-tutorial-master/public/index.cfm",
 		"/C/Users/Jose/AppData/Roaming/Sublime Text 3/Packages/User/ColdFusion.sublime-settings",
 		"/C/Users/Jose/AppData/Roaming/Sublime Text 3/Packages/User/sftp_servers/greatdon",
 		"/C/Users/Jose/AppData/Roaming/Sublime Text 3/Packages/Git/Git.sublime-settings",
 		"/C/Users/Jose/AppData/Roaming/Sublime Text 3/Packages/User/sftp_servers/thegreatdon",
-		"/C/ColdFusion11/cfusion/wwwroot/react-tutorial-master/public/scripts/testdev.js",
 		"/C/ColdFusion11/cfusion/wwwroot/react-tutorial-master/server.js",
 		"/C/ColdFusion11/cfusion/wwwroot/react-tutorial-master/package.json",
 		"/C/Users/Jose/AppData/Roaming/Sublime Text 3/Packages/User/Preferences.sublime-settings",
@@ -185,63 +167,30 @@
 	"groups":
 	[
 		{
-			"selected": 3,
+			"selected": 1,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "public/test.cfm",
+					"file": "/C/Users/Jose/AppData/Roaming/Sublime Text 2/Packages/User/cfcomment.sublime-snippet",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 369,
+						"buffer_size": 300,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								369,
-								369
+								300,
+								300
 							]
 						],
 						"settings":
 						{
 							"incomplete_sync": null,
-							"remote_loading": false,
-							"synced": false,
-							"syntax": "Packages/User/ColdFusion/HTML+CFML.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 2,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "public/upl.html",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 44,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								44,
-								44
-							]
-						],
-						"settings":
-						{
-							"incomplete_sync": null,
-							"remote_loading": false,
-							"synced": false,
-							"syntax": "Packages/Enhanced HTML and CFML/EnhancedHTML.tmLanguage"
+							"syntax": "Packages/XML/XML.tmLanguage"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -251,20 +200,20 @@
 					"type": "text"
 				},
 				{
-					"buffer": 2,
-					"file": "public/scripts/testdev.js",
+					"buffer": 1,
+					"file": "public/filtst.html",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 4139,
+						"buffer_size": 40,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								2645,
-								2645
+								40,
+								40
 							]
 						],
 						"settings":
@@ -272,42 +221,7 @@
 							"incomplete_sync": null,
 							"remote_loading": false,
 							"synced": false,
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 1767.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 3,
-					"type": "text"
-				},
-				{
-					"buffer": 3,
-					"file": "public/index.cfm",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 757,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								678,
-								678
-							]
-						],
-						"settings":
-						{
-							"incomplete_sync": null,
-							"remote_loading": false,
-							"synced": false,
-							"syntax": "Packages/User/ColdFusion/HTML+CFML.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
+							"syntax": "Packages/Enhanced HTML and CFML/EnhancedHTML.tmLanguage"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
