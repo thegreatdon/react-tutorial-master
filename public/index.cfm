@@ -10,7 +10,7 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/marked/0.3.2/marked.min.js"></script>
   </head>
   <body>
-    <div id="content"></div>
+    <div id="content"></div>test
     <script type="text/jsx;harmony=true" src="scripts/testdev.js"></script>
   </body>
 </html>

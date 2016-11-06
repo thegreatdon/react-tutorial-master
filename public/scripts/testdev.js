@@ -71,7 +71,12 @@ var CommentBox = React.createClass({
   {author: "Sublimetext", text: "syncme"},
   {author: "test", text: "syncup"}  ,
   {author: "sublimetext2", text: "syncup2"},
+<<<<<<< HEAD
+  {author: "sublimetext2b", text: "syncup2b"},
+  {author: "github-web-interface-edit", text: "gitwb"}
+=======
   {author: "github edited", text: "git edit"}
+>>>>>>> master
 ]};
   },
   componentDidMount: function() {
